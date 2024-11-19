@@ -7,25 +7,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="navbar">
-        <div class="logo"><a href="#">Mörlin</a></div>
-        <ul class="links">
-            <li><a href="hero">Home</a></li>
-            <li><a href="about">Über uns</a></li>
-            <li><a href="pictures">Bilder</a></li>
-            <li><a href="links">Links</a></li>
-        </ul>
+    <div class="section-container">
+      <div class="header-container">
+        <div class="navbar">
+          <div class="logo"><a href="#">Mörlin</a></div>
+          <ul class="links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">Über uns</a></li>
+              <li><a href="#pictures.hmtl">Bilder</a></li>
+              <li><a href="links.hmtl">Links</a></li>
+          </ul>
+        </div>
       </div>
-    </header>
-    <main>
-      <section id="home">
+      <div class="home-container">
         <h1>Herzlich Wilkommen</h1>
         <p>Es freut uns, dass Sie sich für die Webseite der Familie <br>
         Gudrun und Hartmut Mörlin interessieren.</p>
-        <a href="#" class="action-btn">Unsere Ahnenforschung</a>
-      </section>
-      <section id="about"></section>
-    </main>
+        <button class="research-btn" onclick="location.href='./#contact'">Unsere Forschung</button>
+      </div>
+    </div>
+    <section id="about">
+      <div class="about-container">
+        <h2>Über uns</h2>
+        <p>Wir wohnen seit 1985 in unserem Familiensitz, welcher seit etwa 200 Jahren in Tröbitz ist.
+          Unser Haus ist natürlich noch nicht so alt, es wurde 1929 von meinem Großvater Elwad Mörlin errichtet.</p>
+        <p>Beruflich waren meine Frau und ich mit der Seefahrt bzw. dem Schiffbau verbunden.
+          Jetzt beschäftigen wir uns mit der Ahnenforschung für die Familien Mörlin sowei Grasselt/Jahn.
+          Ein weiteres Interessengebiet ist die Heimatforschung unseres Ortes.
+          Da sind wir aber erst am Anfang.</p>
+          <p>Diese Webseite dient ausschließlich privaten Zwecken.</p>
+      </div>
+      <div class="footer-container">
+        <p>Copyright &#169; 2024 Hartmut Mörlin. All Rights Reserved. </p>
+      </div>
+    </section>  
   </body>
 </html>
