@@ -47,6 +47,13 @@ a:hover {
     text-underline-offset: 0.5rem;
 }
 
+h4 {
+    color: var(--accent-clr);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
 .header-container {
     height: fit-content;
     width: 100%;
@@ -133,7 +140,7 @@ a:hover {
     text-decoration: none;
     background-color: var(--accent-clr);
     border-color: var(--hover-clr);
-    box-shadow: inset 0 0 15px var(--hover-clr);
+    box-shadow: inset 0 0 5px var(--hover-clr);
 }
 
 section {
@@ -167,6 +174,24 @@ section {
 .about-container .colored {
     color: var(--accent-clr);
     font-weight: bold
+}
+
+.about-container table {
+    border: thin solid;
+    border-collapse: collapse;
+    border-color: var(--line-clr);
+    border-width: 1px;
+}
+
+.about-container table tr, td {
+    border: thin solid;
+    border-color: var(--line-clr);
+    border-width: 1px;
+    padding: 0.3rem;
+}
+
+.about-container table span {
+    color: var(--accent-clr);
 }
 
 .footer-container {
@@ -229,3 +254,32 @@ section {
     color: var(--text-clr);
     text-align: center;
 }
+
+.ancestor-btn-container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.ancestor-list-btn {
+    margin-top: 1.5rem;
+    background-color: var(--accent-clr);
+    color: var(--text-clr);
+    padding: 0.5rem 1.5rem;
+    border: 2px solid;
+    border-color: var(--accent-clr);
+    border-radius: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ancestor-list-btn:hover {
+    text-decoration: none;
+    background-color: var(--accent-clr);
+    border-color: var(--hover-clr);
+    box-shadow: inset 0 0 5px var(--hover-clr);
+}
+
