@@ -49,6 +49,7 @@ a:hover {
 
 h4 {
     color: var(--accent-clr);
+    font-size: 20px;
     display: flex;
     justify-content: center;
     padding: 1rem;
@@ -143,7 +144,7 @@ h4 {
     box-shadow: inset 0 0 5px var(--hover-clr);
 }
 
-section {
+#about, #moerlin, #troebitz, #liegnitz, #rhaetien {
     padding-top: 4vh;
     height: 100vh;
     margin: 0 10rem;
@@ -195,16 +196,18 @@ section {
 }
 
 .footer-container {
+    height: fit-content;
     color: var(--line-clr);
     text-align: center;
+    justify-content: center;
+    padding: 2rem;
 }
 
 /* DIFFERENT HTML-PAGES */
 
-.pictures-section-container, .links-section-container {
+.links-section-container {
     height: 20%;
     width: 100%;
-    background-color: var(--base-clr);
     background: url("./src/assets/header-img.jpg");
     background-size: cover;
     background-position: center;
@@ -250,9 +253,20 @@ section {
     padding: 2rem;
 }
 
-#ship-pics, #troebitz-pics-then, #troebitz-pics-now h2 {
-    color: var(--text-clr);
+#ship-pics, #troebitz-pics-then, #troebitz-pics-now {
+    height: fit-content;
+    width: 100%;
+}
+
+#ship-pics h2, #troebitz-pics-then h2, #troebitz-pics-now h2 {
+    color: var(--base-clr);
+    padding: 2rem;
     text-align: center;
+}
+
+#ship-pics img, #troebitz-pics-then img, #troebitz-pics-now img {
+    height: 50vh;
+    width: auto;
 }
 
 .ancestor-btn-container {
